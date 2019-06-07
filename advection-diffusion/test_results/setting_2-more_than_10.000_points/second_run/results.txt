@@ -1,0 +1,22 @@
+Relative L2-error of u for t = 0.000: 5.922031e-01
+Relative L2-error of u for t = 0.015: 4.188545e-01
+Relative L2-error of u for t = 0.030: 2.872419e-01
+Relative L2-error of u for t = 0.045: 2.742671e-01
+Relative L2-error of u for t = 0.060: 3.730452e-01
+Relative L2-error of u for t = 0.075: 5.059791e-01
+Relative L2-error of u for t = 0.090: 6.420360e-01
+Relative L2-error of u for t = 0.105: 7.744766e-01
+Relative L2-error of u for t = 0.120: 9.440406e-01
+Inferred a_u: -0.00232
+Inferred a: 2.74395
+Inferred b: 2.87069
+Inferred c: -0.00000
+Inferred d: 0.00000
+Inferred e: 0.00000
+Squared error a_u: 0.00001
+Squared error a: 0.55346
+Squared error b: 0.75811
+Squared error c: 0.25000
+Squared error d: 0.25000
+Squared error e: 0.00000
+Time needed to run the algorithm: 6719 seconds

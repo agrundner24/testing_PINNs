@@ -1,0 +1,22 @@
+The Output should always be: 
+- The pictures
+- The error for each time step
+- The predicted coefficients (with error)
+- The time needed
+
+We ran Advection-Diffusion and Burgers three times, nonlinear Diffusion once for each setting:
+
+1) First we want to be able to compare with full-batched PDE-Net:
+- Test Advection-Diffusion with 	540.000 points with 200.000 runs of ADAM  -- Could only do 400.000 (Out of memory error) with 70.000 runs of ADAM
+- Test nonlinear Diffusion with 	540.000 points with 200.000 runs of ADAM  -- Could only do 100.000 (Out of memory error) with 70.000 runs of ADAM
+- Test Burgers with 			    360.000 points with 200.000 runs of ADAM  -- Could only do 100.000 (Out of memory error) with 70.000 runs of ADAM
+
+2) Then with a single-batched PDE-Net:
+- Test Advection-Diffusion with 	22.500 points with 200.000 runs of ADAM  
+- Test nonlinear Diffusion with 	22.500 points with 200.000 runs of ADAM 
+- Test Burgers with 			    15.000 points with 200.000 runs of ADAM
+
+3) Compare with Gaussian Processes:
+- Test Advection-Diffusion with 	110 points with 200.000 runs of ADAM  
+- Test nonlinear Diffusion with 	110 points with 200.000 runs of ADAM 
+- Test Burgers with 			    110 points with 200.000 runs of ADAM

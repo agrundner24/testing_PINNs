@@ -1,0 +1,1 @@
+These results were generated with options['layers'] = 8 (instead of 9) as data from the ninth layer is often too noisy.

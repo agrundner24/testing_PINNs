@@ -1,0 +1,10 @@
+Squared error a_u: 0.3638
+Squared error a:   0.2813
+Squared error b:   0.3431
+Squared error c:   0.0834
+Squared error d:   0.0858
+Squared error e:   0.0057
+
+Total MSE: 0.1939
+
+Average run-time: 7733.33 seconds

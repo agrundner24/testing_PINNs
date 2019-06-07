@@ -1,0 +1,14 @@
+Squared error c0:  0.0000
+Squared error c1:  0.9997
+Squared error c2:  0.9996
+Squared error c20: 0.0900
+Squared error c11: 0.0000
+Squared error c02: 0.0900
+Squared error c30: 0.0000
+Squared error c21: 0.0000
+Squared error c12: 0.0000
+Squared error c03: 0.0000
+
+Total MSE: 0.2179 
+
+Average run-time: 22070.33 seconds
