@@ -1,8 +1,8 @@
 # testing_PINNs
 In the context of my Master Thesis I am testing the PINNs algorithm to infer hidden parameters in PDEs using neural networks.
 
-The data is generated with finite differences following https://github.com/barbagroup/CFDPython on
-![equation](https://latex.codecogs.com/gif.latex?%5B0%2C2%20%5Cpi%5D%5Ctimes%20%5B0%2C2%20%5Cpi%5D%20%5Ctimes%20%5B0%2CT%5D).
+The data is generated with finite differences on
+![equation](https://latex.codecogs.com/gif.latex?%5B0%2C2%20%5Cpi%5D%5Ctimes%20%5B0%2C2%20%5Cpi%5D%20%5Ctimes%20%5B0%2CT%5D) following https://github.com/barbagroup/CFDPython.
 The size of the mesh and T can be inferred from parameters in the options-dictionary ![equation](https://latex.codecogs.com/gif.latex?%28T%20%3D%20%28layers-1%29%5Ccdot%20dt%29).
 
 The amount of points is taken so that we can compare the results with those of https://github.com/Slowpuncher24/mlhiphy_v2 and https://github.com/Slowpuncher24/pde-net-in-tf.
